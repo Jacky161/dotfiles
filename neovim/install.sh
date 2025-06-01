@@ -33,6 +33,6 @@ rm "${INSTALL_DIR}/nvim-linux-x86_64.tar.gz"
 # Symlink the executable back to the install directory
 ln -s "${INSTALL_DIR}/nvim-linux-x86_64/bin/nvim" "${INSTALL_DIR}/nvim"
 
-printf "Done! Depending on your distro, you may have to add the install directory to your \$PATH variable. See the following example.\n\n"
+printf "Done! You may need to reopen your shell for neovim to be usable. Depending on your distro, you may have to add the install directory to your \$PATH variable. See the following example.\n\n"
 
 printf "if [ -d ~/.local/bin ]; then\n    PATH=\$PATH:~/.local/bin\n    export PATH\nfi\n"
