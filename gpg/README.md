@@ -22,3 +22,8 @@ Importing (secret) keys:
 ```bash
 gpg --import <file>.asc
 ```
+
+Editing Keys:
+```bash
+gpg --edit-key [your key]
+```
