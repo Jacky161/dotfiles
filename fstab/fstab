@@ -1,0 +1,2 @@
+# SMB Mounts
+//<>/<>                     /mnt/<>/<>    cifs    noauto,nofail,x-systemd.automount,_netdev,noexec,nosuid,nodev,credentials=/root/private/smb/<>,workgroup=workgroup,iocharset=utf8,uid=jacky,gid=jacky,forceuid,forcegid,file_mode=0640,dir_mode=0750 0 0

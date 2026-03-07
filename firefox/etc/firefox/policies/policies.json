@@ -1,0 +1,13 @@
+{
+  "policies": {
+    "ExtensionSettings": {
+      "plasma-browser-integration@kde.org": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/plasma-browser-integration@kde.org/latest.xpi",
+        "updates_disabled": false,
+        "private_browsing": true
+      }
+    }
+  }
+}
+
