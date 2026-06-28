@@ -1,0 +1,10 @@
+[Trigger]
+Operation = Install
+Operation = Upgrade
+Type = Path
+Target = usr/share/edk2-shell/x64/Shell.efi
+
+[Action]
+Description = Copying new EFI Shell to EFI Partition
+When = PostTransaction
+Exec = /usr/lib/systemd/systemd-sbsign sign --private-key /root/.mok/MOK.key --certificate /root/.mok/MOK.crt --output "/boot/shellx64.efi" "/usr/share/edk2-shell/x64/Shell.efi"
