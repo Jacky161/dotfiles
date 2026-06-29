@@ -1,0 +1,6 @@
+alias g="gcc -Wall -std=c99"
+alias ls='eza --group --color=auto --group-directories-first --icons=auto'      # preferred listing
+alias la='eza -a --group --color=auto --group-directories-first --icons=auto'   # all files and dirs
+alias ll='eza -l --group --color=auto --group-directories-first --icons=auto'   # long format
+alias lt='eza -aT --group --color=auto --group-directories-first --icons=auto'  # tree listing
+alias l.="eza -a | grep -e '^\.'"                                               # show only dotfiles
